@@ -1,0 +1,115 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {}
+
+@media (max-width: 480px),
+@media (max-device-width: 480px) {}
+
+@media (max-width: 360px),
+@media (max-device-width: 360px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+/* High resolutions */
+
+@media (min-width: 1440px) {}
+
+/* iPad in portrait & landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+    .osx.et_mobile_device .tippy-popper.tippy-trigger-mobilemenu {
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .et_mobile_device .tippy-popper-singleton {
+        transform: translate3d(0, 0, 0px) !important;
+    }
+}
+
+/* iPad in landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
+
+/* iPad in portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+
+/* iPhone 6, 7 & 8 */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {}
+
+/* iPhone 6 in landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {}
+
+/* iPhone 6 in portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {}
+
+/* iPhone 6 Plus in portrait & landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {}
+
+/* iPhone 6 Plus in landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {}
+
+/* iPhone 6 Plus in portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {}
+
+/* Small devices */
+
+@media only screen and (max-device-height: 667px) {
+    .et_fixed_nav.osx .tippy-popper {
+        transform: none !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+}
+
+/* iPhone 5 & 5S in portrait & landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {}
+
+/* iPhone 5 & 5S in landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {}
+
+/* iPhone 5 & 5S in portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {}
+
+/* iPhone 2G-4S in portrait & landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
+
+/* iPhone 2G-4S in landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {}
+
+/* iPhone 2G-4S in portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {}
+
+/* Retina iPad */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {}
