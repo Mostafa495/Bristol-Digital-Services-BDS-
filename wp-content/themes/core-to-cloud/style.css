@@ -1,0 +1,70 @@
+/*---------------------------------------------------------------------------------
+
+ Theme Name:   Core to Cloud
+ Theme URI:    
+ Description:  
+ Author:       David Hibbert
+ Author URI:   
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+
+/*----
+ * 
+ * pink : Visibility Pink
+blue : Validation Blue
+brightblue : Governance and Control Bright Blue
+response : Response Off White Or Grey
+
+----*/
+
+.color-pink-selection h1 {
+    color: #AD126B !important;
+}
+
+.color-blue-selection h1 {
+    color: #20627F !important;
+}
+
+.color-brightblue-selection h1 {
+    color: #3BB3C3 !important;
+}
+
+.color-response-selection h2 {
+    color: #F2EBE0 !important;
+}
+
+.color-pink-selection h2 {
+    color: #AD126B !important;
+}
+
+.color-blue-selection h2 {
+    color: #20627F !important;
+}
+
+.color-brightblue-selection h2 {
+    color: #3BB3C3 !important;
+}
+
+.color-response-selection h2 {
+    color: #171E29 !important;
+}
+
+.blue {
+    color: #20627F !important;
+}
+
+.pink {
+    color: #AD126B !important;
+}
+
+.bpink {
+    color: #ff007f !important;
+}
+
+.darkblue {
+    color: #171E29 !important;
+}
