@@ -1,0 +1,53 @@
+.dcgd_desc {
+    margin-bottom: 16px
+}
+
+.et-db #et-boc .et-fb-modules-list ul>li[class^=et_fb_dcgd_gravity_divi_module] {
+    background-color: #ff009c !important;
+    color: #fff !important;
+    overflow: visible !important;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center
+}
+
+.et-db #et-boc .et-fb-modules-list ul>li[class^=et_fb_dcgd_gravity_divi_module]:before {
+    color: #fff !important
+}
+
+div[data-name=dcgm_button] .et-fb-form__group:nth-child(11),
+div[data-name=dcgm_button] .et-fb-form__group:nth-child(12),
+div[data-name=dcgm_button] .et-fb-form__group:nth-child(13),
+div[data-name=dcgm_button] .et-fb-form__group:nth-child(14),
+div[data-name=dcgm_button] .et-fb-form__group:nth-child(15),
+div[data-name=fontsformelements] .et-fb-form__group:nth-child(3),
+div[data-name=fontsformelements] .et-fb-form__group:nth-child(4),
+div[data-name=fontsformelements] .et-fb-form__group:nth-child(5) {
+    background-color: red;
+    display: none
+}
+
+.dcgd_form_preview_msg {
+    background: #3d2c72;
+    text-align: center;
+    color: #fff !important;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 30px
+}
+
+.dcgd_form_preview_msg a,
+.dcgd_form_preview_msg h2 {
+    color: #fff !important;
+    font-weight: 700
+}
+
+.dcgd_form_preview_msg img {
+    width: 150px !important;
+    margin: 30px auto 0;
+    display: block
+}
+
+.dcgd_gravity_divi_wrapper li.gfield label.gfield_label {
+    display: block
+}
