@@ -104,6 +104,8 @@ button.contact_form_submit {
 }
 
 .map_sec{
+    background-blend-mode: multiply;
+    background-image: url(https://www.coretocloud.co.uk/wp-content/uploads/2024/09/hex-bg-scaled-1.jpg), linear-gradient(180deg, #171e29 0%, #171e29 31%, #00040c 83%) !important;
     padding: 50px 0px;
 }
 .map_inner h4, .map_inner p{
